@@ -1,5 +1,7 @@
 module github.com/prometheus/node_exporter
 
+replace github.com/coreos/go-systemd => github.com/coreos/go-systemd/v22 v22.1.1-0.20201123092900-87511f396ae9
+
 require (
 	github.com/beevik/ntp v0.3.0
 	github.com/coreos/go-systemd v0.0.0-20191104093116-d3cd4ed1dbcf
